@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="estilos/styles.css" rel="stylesheet">
+    <title>Registro de Cliente</title>
+</head>
+<body>
+
+    <h2>Formulario de Registro de Cliente</h2>
+    <form action="ClienteServlet" method="POST">
+        <div>
+            <label for="id">ID de Cliente:</label>
+            <input type="text" id="id" name="id" required>
+        </div>
+        <div>
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+            <label for="categoria">Categoría:</label>
+            <input type="text" id="categoria" name="categoria" required>
+        </div>
+        <div>
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+        </div>
+        <button type="submit">Guardar</button>
+    </form>
+
+</body>
+</html>
